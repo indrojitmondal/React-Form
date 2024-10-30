@@ -2,7 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import SimpleForm from './SimpleForm/SimpleForm'
+import SimpleForm from './components/SimpleForm/SimpleForm'
+import StateForm from './components/StateForm/StateForm'
 
 function App() {
   
@@ -11,7 +12,8 @@ function App() {
     <>
      
       <h1>Vite + React</h1>
-      <SimpleForm></SimpleForm>
+      {/* <SimpleForm></SimpleForm> */}
+     <StateForm></StateForm>
     
     </>
   )
